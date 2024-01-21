@@ -1,4 +1,4 @@
-FROM maven:3-amazoncorretto-21
+FROM maven:3-amazoncorretto-21 as build
 LABEL authors="Murat Ergul"
 WORKDIR /usr/src/app
 COPY . .
